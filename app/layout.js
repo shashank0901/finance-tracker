@@ -3,7 +3,7 @@
 import "./globals.css";
 
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.min.css";
 
 import Nav from "@/components/Navigation";
 
