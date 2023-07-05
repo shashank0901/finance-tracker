@@ -27,7 +27,7 @@ function ExpenseCategoryItem({ expense }) {
             />
             <h4 className="capitalize">{expense.title}</h4>
           </div>
-          <p>{currencyFormatter(expense.total)}</p>
+          <p>{expense.total}.00 Rs</p>
         </div>
       </button>
     </>
