@@ -59,7 +59,7 @@ export default function Home() {
       <main className="container max-w-2xl px-6 mx-auto">
         <section className="py-3">
           <h1 className="text-gray-400 text-md text-2xl">My Balance</h1>
-          <h2 className="text-4xl font-bold">{currencyFormatter(balance)}</h2>
+          <h2 className="text-4xl font-bold">{balance}.00 Rs</h2>
         </section>
 
         <section className="flex items-center gap-2 py-3">
@@ -108,10 +108,6 @@ export default function Home() {
                     borderWidth: 5,
                   },
                 ],
-              }}
-              options={{
-                responsive: true,
-                maintainAspectRatio: false,
               }}
             />
           </div>
